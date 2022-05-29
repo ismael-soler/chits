@@ -1,4 +1,4 @@
 #!/bin/bash
 echo Nombre del archivo:
 read NOMBRE
-echo "#!/bin/bash" > $NOMBRE
+echo "#!/usr/bin/env bash" > $NOMBRE
