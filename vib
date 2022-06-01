@@ -2,3 +2,4 @@
 echo Nombre del archivo:
 read NOMBRE
 echo "#!/usr/bin/env bash" > $NOMBRE
+chmod 777 $NOMBRE

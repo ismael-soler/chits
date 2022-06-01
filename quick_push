@@ -1,7 +1,8 @@
 #!/bin/bash
 echo "Como queres que se llame ese commit pa??"
-read m
+
 git add . 
 git commit -m "$m"
 git push
+(( m++ )) 
 echo "piola"
