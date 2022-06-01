@@ -1,5 +1,8 @@
-#!/bin/bash
-echo Nombre del archivo:
-read NOMBRE
-echo "#!/usr/bin/env bash" > $NOMBRE
-chmod 777 $NOMBRE
+#!/usr/bin/env bash
+if [ -n "$1" ] 
+then
+	echo "#!/usr/bin/env bash" > $1
+	chmod 777 $1
+else 
+	echo "ERROR: Nombre del archivo"
+fi
