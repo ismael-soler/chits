@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
+
+if [ -n $C ] 
+then
 	git add . 
-	git commit -m "commit"
+	git commit -m "C"
 	git push
+else
+	git add .
+	git commit -m "commit"
+	git push 
+fi
 echo "piola"
