@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
-echo "Como queres que se llame ese commit pa??"
-i=1
-while (( i < 2 ))
-do
 	git add . 
-	git commit -m "$m"
+	git commit -m "commit"
 	git push
-	(( m++ ))
-        (( i++ ))
-done	
 echo "piola"
