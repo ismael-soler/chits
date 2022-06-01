@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -n $C ] 
+if [ -n "$C" ] 
 then
 	git add . 
 	git commit -m "C"
